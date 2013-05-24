@@ -1,0 +1,14 @@
+# Installation Instructions
+
+1. Unzip this file in your site's packages/ directory.
+2. Login to your site as an administrator.
+3. Find the "Add Functionality" page in your dashboard.
+4. Find this package in the list of packages awaiting installation.
+5. Click the "install" button.
+
+# Usage Instructions
+
+1. Login to your site as an administrator.
+2. Find the "Captcha setup" page in your dashboard (it's located under System & Settings - Permissions & Access).
+3. Choose the reCAPTCHA in the Active Captcha field.
+4. The first time you need to obtain the reCAPTCHA keys. The procedure to do that is described in the "Captcha setup" page.
