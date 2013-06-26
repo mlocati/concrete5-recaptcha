@@ -30,7 +30,6 @@ class RecaptchaSystemCaptchaTypeController extends SystemCaptchaTypeController {
 			echo t('Please specify the reCAPTCHA keys');
 		}
 		else {
-			$result = '';
 			Loader::library('3rdparty/recaptcha/recaptchalib', 'recaptcha');
 			if(self::showSmaller()) {
 				$th = Loader::helper('text');
