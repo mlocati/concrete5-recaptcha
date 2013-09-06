@@ -16,7 +16,11 @@ class RecaptchaSystemCaptchaTypeController extends SystemCaptchaTypeController {
 		}
 		else {
 			Loader::library('3rdparty/recaptcha/recaptchalib', 'recaptcha');
-			echo recaptcha_get_html($keys['recaptcha_key_public']);
+			$use_ssl = false;
+			if(isset($_SERVER) && is_array($_SERVER) && array_key_exists('HTTPS', $_SERVER) && is_string($_SERVER['HTTPS']) && (!empty($_SERVER['HTTPS'])) && (strcasecmp($_SERVER['HTTPS'], 'off') != 0)) {
+				$use_ssl = true;
+			}
+			echo recaptcha_get_html($keys['recaptcha_key_public'], null, $use_ssl);
 		}
 	}
 
