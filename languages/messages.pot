@@ -1,7 +1,7 @@
 msgid ""
-msgstr "Project-Id-Version: recaptcha 0.9.0\n"
+msgstr "Project-Id-Version: recaptcha 0.9.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-24 20:38+0000\n"
+"POT-Creation-Date: 2013-09-06 15:13+0000\n"
 "MIME-Version: 1.0\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -36,6 +36,6 @@ msgid "Please type the letters and numbers shown in the image."
 msgstr ""
 
 #: packages/recaptcha/models/system/captcha/types/recaptcha/controller.php:15
-#: packages/recaptcha/models/system/captcha/types/recaptcha/controller.php:34
+#: packages/recaptcha/models/system/captcha/types/recaptcha/controller.php:38
 msgid "Please specify the reCAPTCHA keys"
 msgstr ""
