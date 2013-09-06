@@ -1,4 +1,4 @@
-<?php  defined('C5_EXECUTE') or die('Access denied.');
+<?php defined('C5_EXECUTE') or die('Access denied.');
 
 class RecaptchaSystemCaptchaTypeController extends SystemCaptchaTypeController {
 
