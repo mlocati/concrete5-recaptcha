@@ -5,7 +5,7 @@ $co->setPackageObject(Package::getByHandle('recaptcha'));
 $recaptcha_key_public = $co->get('recaptcha_key_public');
 $recaptcha_key_private = $co->get('recaptcha_key_private');
 Loader::library('3rdparty/recaptcha/recaptchalib', 'recaptcha');
-$recaptcha_signupUrl = recaptcha_get_signup_url($_SERVER['HTTP_HOST'], SITE);
+$recaptcha_signupUrl = 'https://www.google.com/recaptcha/admin#list'; //recaptcha_get_signup_url($_SERVER['HTTP_HOST'], SITE);
 ?>
 <div class="clearfix">
 	<?php echo $form->label('recaptcha_key_public', t('reCAPTCHA public key')); ?>
