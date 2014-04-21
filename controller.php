@@ -4,7 +4,7 @@ class RecaptchaPackage extends Package {
 
 	protected $pkgHandle = 'recaptcha';
 	protected $appVersionRequired = '5.5';
-	protected $pkgVersion = '0.9.1';
+	protected $pkgVersion = '0.9.2';
 
 	public function getPackageName() {
 		return t('reCAPTCHA');

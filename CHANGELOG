@@ -1,3 +1,7 @@
+0.9.2
+- Fixed reCAPTCHA signup URL
+- Now available in these languages: Chinese (Taiwan), Dutch (Netherlands), Finnish (Finland), French (France), German (Germany), Greek (Greece), Hebrew (Israel), Italian (Italy), Russian (Russia), Slovenian (Slovenia), Swedish (Sweden), Vietnamese (Vietnam)
+
 0.9.1
 - Add support for SSL
 - Add German translation (thanks to Michael Singer and Patrick Heck)
